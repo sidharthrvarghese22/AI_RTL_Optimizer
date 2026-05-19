@@ -1,33 +1,95 @@
 # AI RTL Optimizer
 
-AI-Assisted RTL Optimization and Analysis Tool using Python and Verilog HDL.
+AI-Assisted RTL Analysis and Optimization Tool using Python and Verilog HDL.
+
+---
 
 ## Features
 
 - RTL Parsing
-- RTL Analysis
-- Timing Risk Detection
+- Timing Analysis
 - Optimization Suggestions
-- Feature Extraction
 - ML Delay Prediction
-- Report Generation
+- RTL Complexity Scoring
+- RTL Quality Grading
+- Streamlit GUI Dashboard
+- Downloadable Analysis Reports
+
+
+---
 
 ## Technologies Used
 
 - Python
 - Verilog HDL
-- Regex
+- Streamlit
+- Pandas
 - Scikit-learn
+- Regex
 - Icarus Verilog
+
+---
 
 ## Project Structure
 
-- parser/ → RTL parser
-- analyzer/ → RTL analysis and optimization
-- ml_engine/ → ML prediction engine
-- reports/ → Report generation
-- rtl/ → Sample Verilog designs
-- datasets/ → ML datasets
+```text
+AI_RTL_Optimizer/
+│
+├── analyzer/
+├── datasets/
+├── ml_engine/
+├── output/
+├── parser/
+├── reports/
+├── rtl/
+├── screenshots/
+├── ui/
+├── main.py
+├── README.md
+└── .gitignore
+```
+
+---
+
+## Sample Features
+
+### RTL Analysis
+- Operator Detection
+- Timing Risk Detection
+- Multiplier Detection
+- Combinational Logic Analysis
+
+### Optimization Suggestions
+- Pipeline Recommendations
+- Logic Splitting Suggestions
+- Area Optimization Guidance
+
+### AI Features
+- Delay Estimation
+- RTL Complexity Score
+- RTL Quality Grade
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/sidharthrvarghese22/AI_RTL_Optimizer.git
+
+cd AI_RTL_Optimizer
+
+pip install streamlit pandas scikit-learn numpy
+```
+
+---
+
+## Run Dashboard
+
+```bash
+streamlit run ui/dashboard.py
+```
+
+---
 
 ## Author
 
